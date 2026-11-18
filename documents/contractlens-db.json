@@ -1,0 +1,540 @@
+{
+  "analyses": [
+    {
+      "engine": "ContractLens Deep Legal NLP v3.0",
+      "title": "CLG 16  Model Residential Lease",
+      "fileName": "CLG 16- Model Residential Lease.docx",
+      "currency": "$",
+      "analyzedAt": "2026-11-18T09:53:58.719Z",
+      "contractType": {
+        "type": "rental",
+        "label": "Rental / Lease Agreement",
+        "confidence": 99,
+        "autoDetected": true
+      },
+      "wordCount": 5417,
+      "estimatedPages": 1,
+      "readingLevel": {
+        "originalGrade": 12,
+        "simplifiedGrade": 7,
+        "estimatedReadMinutes": 25
+      },
+      "safetyScore": 80,
+      "grade": "B",
+      "verdict": "Mostly Reasonable — Minor Clarifications",
+      "verdictTone": "info",
+      "executiveSummary": "Safety Score 80/100 (Grade B) — 1 Red high-risk and 0 Yellow attention clauses detected across 1 pages, with $0 in estimated hidden fees or penalty exposure. Review the Smart Dashboard and ask the suggested questions before signing.",
+      "trafficLightCounts": {
+        "red": 1,
+        "yellow": 0,
+        "green": 1
+      },
+      "counts": {
+        "total": 1,
+        "critical": 1,
+        "high": 0,
+        "medium": 0
+      },
+      "smartDashboard": {
+        "clausesNeedingAttention": 1,
+        "pages": 1,
+        "cards": [
+          {
+            "id": "fees",
+            "title": "Fees & Deductions",
+            "count": 1,
+            "tone": "red",
+            "subtitle": "Additional charges or deductions may apply"
+          },
+          {
+            "id": "renewals",
+            "title": "Renewal & Deadlines",
+            "count": 0,
+            "tone": "green",
+            "subtitle": "No auto-renewal trap detected"
+          },
+          {
+            "id": "penalties",
+            "title": "Responsibilities & Penalties",
+            "count": 0,
+            "tone": "green",
+            "subtitle": "Balanced obligations"
+          }
+        ],
+        "unclearClauses": [
+          {
+            "id": "finding-unilateral-rate-modification",
+            "title": "Unilateral Power to Cut Incentives, Pay, or Hike Rates",
+            "unclear": "Does not specify when changes can happen, maximum limits, or how much advance notice you will receive."
+          }
+        ]
+      },
+      "riskRadar": [
+        {
+          "key": "hidden_fee",
+          "label": "Fees & Deductions",
+          "score": 0
+        },
+        {
+          "key": "unfair_clause",
+          "label": "Unfair Terms",
+          "score": 38
+        },
+        {
+          "key": "auto_renewal",
+          "label": "Renewals",
+          "score": 0
+        },
+        {
+          "key": "termination",
+          "label": "Exit Penalties",
+          "score": 0
+        },
+        {
+          "key": "rights_liability",
+          "label": "Rights & Waiver",
+          "score": 0
+        }
+      ],
+      "financialExposure": {
+        "currency": "$",
+        "estimatedExtraAnnualCost": 0,
+        "maxPenaltyExposure": 0,
+        "totalAtRisk": 0,
+        "breakdown": []
+      },
+      "findings": [
+        {
+          "id": "finding-unilateral-rate-modification",
+          "ruleId": "unilateral-rate-modification",
+          "title": "Unilateral Power to Cut Incentives, Pay, or Hike Rates",
+          "category": "unfair_clause",
+          "dashboardGroup": "fees",
+          "trafficLight": "red",
+          "severity": "critical",
+          "weight": 16,
+          "sectionTitle": "Agreement Header & Overview",
+          "page": 1,
+          "excerpt": "Additionally, the landlord cannot increase the rent or any non-rent fees or charges and may not unilaterally modify the agreement.",
+          "matchedPhrase": "unilaterally modify",
+          "start": 4225,
+          "end": 4355,
+          "plainEnglish": "The platform or lender can change your incentives, cut your pay, add deductions, or raise your interest rate whenever they want—even retroactively without warning.",
+          "whyItMatters": "Your earnings or monthly EMI are never truly guaranteed; the deal can worsen overnight after you commit.",
+          "unclearWording": "Does not specify when changes can happen, maximum limits, or how much advance notice you will receive.",
+          "worstCase": "Incentives drop right after you invest in joining, or loan APR jumps to 49% on 15 days SMS notice.",
+          "fairRedline": "Compensation rates, incentives, and interest rates shall be fixed for the stated period and may only change prospectively upon 30 days written notice and mutual consent.",
+          "question": "Can incentives, pay rates, or interest rates be changed without prior written notice, and will you confirm changes never apply retroactively?",
+          "negotiationPoint": "Insist on written advance notice (at least 15–30 days) and a strict ban on retroactive cuts to completed work.",
+          "benchmark": "Core financial rates must never change retroactively or without advance notice and opt-out rights.",
+          "explanationLevels": {
+            "legal": "Additionally, the landlord cannot increase the rent or any non-rent fees or charges and may not unilaterally modify the agreement.",
+            "simple": "The platform or lender can change your incentives, cut your pay, add deductions, or raise your interest rate whenever they want—even retroactively without warning.",
+            "beginner": "If you've never read a contract before: The platform or lender can change your incentives, cut your pay, add deductions, or raise your interest rate whenever they want—even retroactively without warning. Simply put, this rule tilts the balance against you and could create unexpected obligations unless clarified before signing.",
+            "example": "Example: Suppose an unexpected situation happens mid-contract. Because of \"Unilateral Power to Cut Incentives, Pay, or Hike Rates\", you could face an avoidable hit (such as $1,500+ or losing rights/flexibility) — even when you assumed standard fair rules applied. Incentives drop right after you invest in joining, or loan APR jumps to 49% on 15 days SMS notice."
+          }
+        }
+      ],
+      "trafficLightSections": [
+        {
+          "title": "Agreement Header & Overview",
+          "page": 1,
+          "start": 0,
+          "end": 35143,
+          "rawText": "Maine Consumer Law Guide\n\nFrom the Office of the Maine Attorney General\n\nChapter 16: Model Residential Lease\n\nLast revised: December 2025.\n\nContents\n\n TOC \\o \"1-3\" \\h \\z \\u 16.1  Introduction\t PAGEREF _Toc225865329 \\h 1\n\n16.2  Guide to the Model Residential Lease\t PAGEREF _Toc225865330 \\h 2\n\n16.3  Model Residential Lease\t PAGEREF _Toc225865331 \\h 10\n\n16.4  Model Total Price Disclosure\t PAGEREF _Toc225865332 \\h 16\n\n16.1 Introduction\n\nIn 1989, the Legislature first directed the Attorney General’s Office to develop a model residential lease. The model residential lease was substantially revised in 2014 through a collaboration of the Attorney General’s Office and the Maine Human Rights Commission. For many years, the model lease has been published as part of this Consumer Law Guide available on the Attorney General’s website (www.maine.gov/ag). \n\nIn 2025, the Legislature enacted An Act to Require the Attorney General to Create and Update Biennially a Model Residential Lease, which provides that: \n\nBy December 1, 2025, the Attorney General shall create and post on the Attorney General’s publicly accessible website a model lease for residential property that complies with current law, including any disclosure and any document required to be attached to a residential lease. The Attorney General shall update the model lease biennially and post the revised model lease no later than December 1st of every odd-numbered year. \n\nProponents of the Act expressed that the existing model lease was inadequate because it did not include the Total Price Disclosure required by 14 M.R.S.A. § 6030-J and other mandatory landlord disclosures. These disclosures must be made to all prospective tenants, regardless of whether there is a written residential lease, and the applicable laws require that they be made prior to entering into an agreement for a residential tenancy. Excepting the Total Price Disclosure obligation, which was not effective until January 2025, information about these mandatory landlord disclosures has for many years been included in the tenants’ rights guide of the Consumer Law Guide. \n\nA Guide to the Model Residential Lease is included at Section 16.2. The Model Residential Lease can be found at Section 16.3. Finally, a new Model Total Price Disclosure is included at Section 16.4. \n\nThe Guide to the Model Residential Lease, the Model Residential Lease, and the Model Total Price Disclosure are offered as educational tools only and do not constitute legal advice or guidance. They do not include or address all laws applicable to residential tenancies, which, in addition to state laws, rules, and regulations, may also include local laws, such as municipal charter provisions, ordinances, and rules. The use of or reliance on the Guide to the Model Residential Lease, the Model Residential Lease, and/or the Model Total Price Disclosure does not excuse parties from complying with the law and does not provide a “safe harbor” or defense to liability, including with respect to liability in actions brought by the Attorney General. Parties to residential tenancies are encouraged to contact their own counsel to obtain legal advice regarding questions of compliance. \n\n16.2 Guide to the Model Residential Lease\n\nThis section briefly describes provisions of the Model Residential Lease and the relevant Maine landlord-tenant laws. Additional information regarding landlord-tenant laws can be found in Chapter 14 of this Consumer Law Guide. \n\nLease Sections 1-2: Parties to This Lease\t\n\nThe names and mailing addresses of the landlord, tenant and managing agent, if any, are entered here.\t\n\nLease Section 3: Residence Location\t\n\nThis lease can be used for any residence: house, apartment, mobile home, etc. If the residence is an apartment, then the apartment number and floor should be noted. In addition to legal protections that apply to all residential tenants, residents of mobile home parks may have additional protections.   \t\n\nLease Section 4: Length of Lease\t\n\nThis section establishes the term (or length of time) during which the tenant has the right to occupy the premises. During this period, assuming the tenant does not breach the lease, the landlord may not evict the tenant. Additionally, the landlord cannot increase the rent or any non-rent fees or charges and may not unilaterally modify the agreement. If a tenant is evicted for breach of the lease or leaves the residence before the end of the lease term, then the tenant may owe the remaining rent, but only if the landlord has satisfied a duty to mitigate damages. This means that the landlord must make reasonable efforts to find a new tenant and, if the landlord finds a new tenant who will rent the premises, rent paid by the new tenant for any portion of the former tenant’s term must be credited to the former tenant’s balance. \t\n\nIf the tenant stays beyond the term of the lease, then the tenant becomes a “month-to-month” tenant. This is called a tenancy at will; Maine law provides such tenants with certain rights. For example, the landlord cannot increase the rent or evict the tenant without giving the tenant written notice of at least 45 days or, if the increase is more than 10%, 75 days. A rent increase notice must expire on or after the date through which rent has been paid. Either the landlord or the tenant can terminate a tenant at will lease by giving 30 days written notice.\n\nA tenancy at will may be terminated on 7 days’ notice only for those reasons specifically permitted by law, including if the tenant is 7 days or more in arrears in paying rent. However, if the termination is based on late rent and the tenant pays the rent arrearage before the 7 days is up, then the termination is void. \t\n\nThe landlord’s eviction notice must explain the reasons for eviction. \t\n\nThe landlord can forbid a tenant from becoming a tenant at will at the end of the lease by informing the tenant in writing at least 30 days before the end of the term. \t\n\nLease Section 5: Rent Payments\t\n\nThe monthly rent should be entered here. Any additional non-rent charges should be separately stated in Section 5(C). \t\n\nIf there is a late charge, it should be stated in Section 5(B). Late fees should be no more than a reasonable estimate of the landlord’s damages caused by late payment. Maine law requires a landlord to inform a tenant of any late fee in writing at the time they enter into a rental agreement. The late fee cannot exceed 4% of one month’s rent and cannot be charged until the rent payment is 15 days late. \t\n\nFor tenants at buildings with more than 5 dwelling units, landlords are required to provide written receipts for rental payments and security deposit payments made partially or fully in cash. The receipt should include the following information: the date of the payment; the amount paid; the name of the party for whom the payment is made; the period for which payment is being made; a statement that the payment is either for rent or for security deposit; the signature of the person receiving the payment; and the name of that person printed in a legible manner.\t\n\nLease Section 6: Security Deposits\t\n\nThis section describes the tenant’s security deposit. Although landlords are not required to collect security deposits, landlords often require them to be paid in advance of a tenancy. The landlord must return the security deposit to the tenant in full, except that it may be retained in whole or in part by the landlord if the tenant owes rent (and the landlord has satisfied the duty to mitigate) or the tenant is responsible for damage to the residence that is beyond “normal wear and tear.”\t\n\n“Normal wear and tear” means deterioration that occurs based upon the use for which the rental unit is intended, without negligence, carelessness, accident or abuse of the premises or equipment or chattels by the tenant or members of his household or their invitees or guests. The term “normal wear and tear” does not include sums or labor expended by the landlord in removing articles abandoned by the tenant (such as trash).\t\n\nThe landlord cannot unjustly refuse to return the tenant’s deposit. A tenant can sue a landlord if the landlord unlawfully retains a security deposit.\t\n\nMaine has also enacted the following additional statutory protections for security deposits:\t\n\nA landlord may not require a security deposit that is greater than an amount equal to two months’ rent. This means that if the monthly rent for the unit is $1,000, the security deposit cannot exceed $2,000. This limitation applies to the entire rental unit, not to each tenant in the unit. Regardless of how many tenants are paying for the security deposit, the total combined amount of the security deposit cannot exceed two months’ rent. \n\nThe landlord must keep the tenant’s security deposit in a bank account separate from the landlord’s other funds and protected in case of bankruptcy, foreclosure, or sale of the building. The landlord is not statutorily required to pay the tenant interest on a security deposit. The tenant has the right to request the bank location and account number in which the security deposit is being held.\n\nIf the tenant is a tenant at will, the landlord is required to return the security deposit or provide a written statement itemizing the reasons for keeping it within 21 days. A written lease agreement can extend this time period to no more than 30 days.\n\nIf the landlord fails to return the tenant’s security deposit or fails to supply the tenant with the required itemized statement, then the landlord gives up the right to withhold any part of it.\n\nA landlord who fails to return the security deposit and provide the required itemized statement within the statutory time period can be held liable for double damages, reasonable attorney’s fees, and court costs. A tenant seeking those remedies must provide 7 days’ notice before filing suit. \n\nIf the landlord transfers ownership of the rental unit before the end of a lease the landlord must transfer the security deposit to the new owner.\n\nPlease note: these statutory protections do not apply to tenants of buildings of five or fewer units, one of which is occupied by the landlord.  \t\n\nLease Section 7: Services Provided by the Landlord\n\nThis section describes the landlord and tenant’s responsibilities for utilities. Landlords may not charge a tenant for electricity to the common areas or areas not within the tenant’s residence. This restriction can be waived if both parties have agreed in writing that the tenant will pay for such costs in return for a specific reduction in rent or other fair consideration, which must approximate the actual cost of providing utilities to those other areas. \n\nLandlords generally cannot deny tenants in residences with more than one dwelling unit access to cable television service. \n\nIf a landlord fails to pay for a utility service in the landlord’s name, a disconnect cannot occur until the utility company notifies the tenant and allows the tenant the opportunity to assume responsibility for future service. Unless they have agreed to be responsible for future service, tenants are not required to pay utility charges which are the landlord’s responsibility. Any tenant assuming responsibility for future service, and paying the utility, may deduct the amount paid from rent owed to the landlord. \n\nIf the landlord has agreed to provide heat:\t\n\nThe landlord must maintain an indoor temperature which is not so low as to be injurious to the health of occupants not suffering from abnormal medical conditions;\n\nHeating facilities must be capable of maintaining a minimum temperature of at least 68 degrees Fahrenheit 3 feet from the exterior walls and 5 feet above floor level at an outside temperature of minus 20 degrees Fahrenheit; and\n\nHeating facilities must be operated to protect the building equipment and systems from freezing. \n\nIn return for a specific reduction in rent, a landlord and a tenant can enter into a specific written agreement (which must be separate from their lease agreement) to maintain an indoor temperature between 62 and 68 degrees. Such agreements cannot be entered into if anyone under the age of 5 or over the age of 65 resides in the unit. \n\nLease Section 8: Furnishings Provided by the Landlord\n\nThis section outlines any furnishings provided by the landlord.\n\nLease Section 9: Tenant Responsibilities\n\nThis section describes the uses the tenant can make of the residence and the tenant’s obligation not to misuse the residence.\n\nAlterations to the residence by the tenant must be approved by the landlord.\n\nPlease note: under the federal Fair Housing Act, persons with disabilities have a right to make reasonable modifications.\t\n\nLease Section 10: Landlord Residential Responsibilities\n\nThis section prohibits the landlord from interfering with the tenant’s legal use of the residence. \n\nUnder the Implied Warranty and Covenant of Habitability, a landlord is required to keep the residence fit for human habitation. This requirement applies to all rented dwelling units, including mobile homes, apartments, buildings, or other structures, plus the common areas thereof. If a rented residence is unfit or unsafe to live in, the tenant can force the landlord to fix the problem by taking the landlord to court. For the tenant to win such a case, the following requirements must be followed:\t\n\nThe condition complained of must be serious; it must make the residence unsafe or unhealthy (e.g., broken windows, toilet malfunctions, rotting stairs, electrical hazards, oil burner problems, leaks in ceiling).\n\nThe condition must not be caused by the tenant or the tenant’s family.\n\nThe tenant must give the landlord reasonably prompt written notice of the problem and allow a reasonable amount of time for landlord to fix the problem.\n\nThe tenant must be fully up to date in rent payments at the time the tenant gives the landlord written notice of the condition. \n\nThere are specific protections for tenants faced with bedbugs. \n\nIf the landlord does not repair the unsafe or unhealthy condition within a reasonable time after written notice, a judge may order that the tenant’s rent be lowered, that the tenant receive a partial rent rebate, or that the landlord fix the condition. \n\nA tenant can sign away the right to complain about certain conditions.  For example, the tenant may negotiate a written lease that charges a lower rent in return for the landlord not supplying heat.\n\nThe landlord cannot increase your rent if a condition at the dwelling unit violates the warranty of habitability. \n\nGenerally, the law does not authorize tenants to withhold rent for warranty issues. If the tenant believes the landlord has breached the warranty of habitability, then the tenant’s usual remedy is to go to court and seek relief. However, if the landlord has breached the warranty of habitability and the reasonable cost of repairing the dwelling unit is less than $500 or an amount equal to one half of the monthly rent, whichever is greater, the tenant can notify the landlord in writing of the tenant’s intention to correct the condition at the landlord’s expense. If the landlord fails to comply within 14 days after being notified by the tenant, or as promptly as conditions require in case of emergency, the tenant may arrange to have the repairs made. After submitting to the landlord an itemized statement of the tenant’s expenses in making a repair, the tenant may deduct from the rent the reasonable cost of the repairs. \n\nPlease note: this right to repair and then deduct the cost from rent does not apply if the residence is an owner-occupied building of five (5) or fewer dwelling units. \n\nLease Section 11: Landlord Entry into the Residence\t\n\nThis section allows the landlord to enter the residence at a reasonable time after giving the tenant reasonable notice and obtaining the tenant’s permission. Tenants cannot unreasonably withhold permission. Except in the case of an emergency or if it is impractical to do so, the landlord must give the tenant reasonable notice of intent to enter. 24 hours’ notice is presumed to be reasonable. \n\nThe landlord is allowed to enter the rental unit to make necessary or agreed-upon repairs, alterations, improvements, or to show or inspect the apartment. If the landlord makes an illegal or unauthorized entry or makes repeated demands for entry which have the effect of harassing, the tenant can recover actual damages or $100, whichever is greater, obtain an injunction, and recover reasonable attorney’s fees.\t\n\nLease Section 13: Notifying the Landlord or Tenant\t\n\nThis section describes the parties’ agreement regarding how they will notify each other. If the law requires a different form of notice, then the law controls. \t\n\nLease Section 14: Occupants\t\n\nThis section allows the parties to agree on who may reside at the rental unit.\n\nLease Section 15: Pets\t\n\nThis section allows the parties to agree on whether pets will be allowed at the residence.\n\nLease Section 16: Conditions of Residence at the Time the Lease Is Signed\t\n\nTenants should carefully inspect the residence before signing the lease and list all defects and damage in this section. This may help prevent or mitigate disputes about defects or damage at the end of the tenancy.\n\nLease Section 17: When the Lease Ends \n\nThis section outlines the how possession of the residence will be returned to the landlord.\n\nAbandoned Property. By statute, a landlord must comply with specific requirements before they can dispose any property of the tenant that is left at the rental unit after the tenant has vacated.  Those requirements exist regardless of whether the written lease agreement expressly includes them.  \n\nLease Section 18: Lease Signatures\n\nThe lease is not binding unless signed by both parties. Handwritten revisions should also be initialed by both parties. Each party should receive and retain a copy of the signed lease.\t\n\nRequired Landlord Disclosures\t\n\nUnless they are exempt, there are various disclosures that a landlord must make to a tenant under Maine and federal law before entering into a tenancy, including: \n\nLandlords must provide a residential energy efficiency disclosure statement;\n\nLandlords must notify tenants of results of radon testing; \n\nLandlords must disclose their smoking policy; \n\nLandlords must provide a Total Price Disclosure; and \n\nLandlords must provide a lead paint disclosure. \t\n\nUnfair Discrimination\t\n\nFederal and state laws prohibit unfair discrimination in rental housing. \t\n\nLandlords may not refuse to show or rent a unit or impose different terms or conditions on the basis of race, color, sex, sexual orientation or gender identity, physical or mental disability, religion, ancestry, national origin, familial status or any previous actions seeking and receiving an order of protection, or because of the receipt of any kind of public assistance. \n\nLandlords may not refuse occupancy because the tenant requires an assistance animal unless the building consists of two units one of which is occupied by the landlord. The definition of “assistance animal” for housing includes animals other than dogs and includes animals which are necessary to mitigate the effects of emotional/mental disabilities, including “companion” or “emotional support” animals.\n\nFor further information or to make a complaint of unfair discrimination, a tenant may contact the Maine Human Rights Commission (https://www.maine.gov/mhrc/), 51 State House Station, Augusta, Maine 04333 (207) 624-6290,. \t\n\nWhen the Apartment Building Is Sold\t\n\nIf your landlord sells the building within the term of a written lease agreement, the tenant may have the right to remain in their residence for the entire term. The new owner must follow the same eviction procedures as the former owner, whether the tenant has a written lease agreement or is a tenant at will. \t\n\nNon-Waivable Tenant Rights\t\n\nUnder Maine law, there are certain tenant rights that cannot be waived, no matter what the lease says and notwithstanding any oral agreement with the landlord:\t\n\nThe landlord cannot charge a tenant for the months remaining on the lease after the tenant is evicted or leaves unless the landlord makes a good faith effort to re-rent the residence. \n\nLate fees may not exceed 4% of one month’s rent. \n\nSecurity deposit rights are the same for all tenants, whether there is a written lease or not. Please note: this law does not apply to a residence which is part of a building of no more than 5 dwellings, one of which is occupied by the owner.\n\nLandlords cannot require tenants to pay for utilities in common areas, unless there is an agreement for a reduction in rent or other fair consideration. \n\nLandlords cannot disclaim the Implied Warranty and Covenant of Habitability unless the lease specifically charges a lower rent in return for unsafe conditions. \n\nTenants have the right to repair serious problems and deduct the cost (up to $500 or one half of the monthly rent) from the rent. This law does not apply to owner-occupied buildings with 5 or fewer units. \n\nLandlords cannot unreasonably enter the tenant’s residence. \n\nLandlords can terminate the lease and evict a tenant for a substantial breach of the lease, but they cannot forcibly remove a tenant or deny access to the rental unit (e.g., by changing the locks or removing furniture). Only a law enforcement officer can force the tenant to leave and only after a court hearing in which the court orders an eviction. \n\nLandlords must handle abandoned property in accordance with the law. \n\nThe landlord cannot evict a tenant in retaliation for complaining about living conditions or joining a tenant’s organization. \n\nLandlords cannot unfairly discriminate against tenants and must accommodate disabilities, including allowing assistance animals. \n\nLandlords violate the Maine Unfair Trade Practices Act if they use lease provisions that have the effect of waiving a tenant’s statutory rights. Further, the Legislature has specifically declared certain lease provisions unenforceable and violations of the Maine Unfair Trade Practices Act. \n\n16.3 Model Residential Lease\n\nRESIDENTIAL LEASE AGREEMENT\n\nPARTIES TO THIS LEASE\n\nThe parties to the lease are:\n\nLANDLORD\t\t\t\t\t\n\nName \t\t\t\t\t\t\t\n\nAddress \t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\n\nTelephone \t\t\t\t\t\n\nTENANT(S)\t\n\nName \t\t\t\t\t\n\nAddress \t\t\t\t\t\n\n\t\t\t\t\t\t\n\nTelephone \t\t\t\t\n\nName \t\t\t\t\t\n\nAddress \t\t\t\t\t\n\n\t\t\t\t\t\t\n\nTelephone \t\t\t\t\n\nMANAGING AGENT\n\nIf the landlord employs an agent to manage this residence, the agent is:\n\nName __________________________________________________________________\t\n\n\tAddress _________________________________________________________________\t\n\n\t________________________________________________________________________\n\n\tTelephone _______________________________________________________________\t\n\nRESIDENCE LOCATION\n\nThis residence is a house _____, apartment _____, mobile home _____  (check one).\n\nIt is located at: ______________________________________________________________\n\n_______________________________________________________ \tME (ZIP): __________\n\nFloor: __________ \tApartment number: __________\n\nLENGTH OF LEASE\n\nThe landlord will rent this residence to the tenant for __________ months. This term shall begin on   ____________________ and end on ____________________.\n\nRENT PAYMENTS\n\nRental Amount. The monthly rent for this residence is $ ___________. The tenant shall pay the rent for each month on the _________ day of that month.  \t\n\nPaying the Rent. The rent should be paid to: ________________________________. The landlord may assess a penalty of ____________% (no more than 4%) of the monthly rent once payment is 15 or more days late.\t\n\nAdditional Charges. In addition to the monthly rent, the tenant also agrees to pay the landlord the following charges (describe the reason for the charge, the amount, and when it should be paid): __________________________________________________________________________________________________________________________________________________________________\t\n\nSECURITY DEPOSIT\n\nAmount of Security Deposit. The tenant has agreed to pay the landlord $ _______________ as a Security Deposit. (No more than two months’ rent). The landlord will keep the Security Deposit separate from the landlord’s own money. \n\nReturn of the Security Deposit. The landlord will return the entire Security Deposit to the tenant if the following conditions are met:\n\nThe apartment is in good condition except for (a) normal wear and tear, or (b) damage not caused by the tenant, the tenant’s family, invitees or guests;\t\n\nThe tenant does not owe any rent or utility charges which the tenant was required to pay directly to the landlord; and\t\n\nThe tenant has not caused the landlord expenses for storage and disposing of unclaimed property.\t\n\nIf the landlord deducts money from the tenant’s Security Deposit, the landlord will provide the tenant a list of the items for which the tenant is being charged and return to the tenant the balance of the Security Deposit.\n\nThe landlord will return the Security Deposit, or the remaining balance, to the tenant no more than thirty (30) days after the tenancy ends.\t\n\nSERVICES PROVIDED BY THE LANDLORD\n\nUtilities and services shall be paid by the parties as follows: \n\nUtilities/Services\n\nLandlord\n\nTenant\n\nElectricity\n\nHeat, Fuel\n\nSewerage\n\nTrash Removal\n\nYard Maintenance\n\nSnow Removal\n\nAir Conditioning\n\nHot Water\n\nCold Water\n\nTelephone\n\nCable Television\n\nInternet Services\n\nOther\n\nThe landlord will also provide the following services: \n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nFURNISHINGS PROVIDED BY THE LANDLORD FOR USE BY TENANT: \n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nTENANT RESIDENTIAL RESPONSIBILITIES\n\nUse Only as a Residence. The tenant agrees that the residence will be used only as a residence, except for incidental use in trade or business (such as telephone solicitation of sales or arts and crafts created for profit). Such incidental uses will be allowed if they do not violate local zoning laws or affect the landlord’s ability to obtain fire or liability insurance. The total number of persons residing in this residence cannot exceed _______.\t\n\nDamage. The tenant agrees not to damage the apartment, the building, the grounds or the common areas or to interfere with the rights of other tenants to live in their apartments in peace and quiet. Damage (other than normal wear and tear) caused by the tenant, the tenant’s family, invitees, service animal or guests shall be repaired by the tenant at the tenant’s expense. Upon the tenant’s failure to make such repairs, the landlord, after reasonable written notice to the tenant, may make the repairs.\t\n\nAlterations. Except as permitted by law, no alteration, addition, or improvement to the residence shall be made by the tenant without the prior written consent by the landlord.\n\nBedbugs. Tenant agrees to promptly notify the landlord if there is a known or suspected infestation of bedbugs in the unit and agrees to cooperate with the landlord and any pest control agent to remediate.\n\nLANDLORD RESIDENTIAL RESPONSIBILITIES\n\nLegal Use of the Residence. The landlord agrees not to interfere with the tenant’s legal use of the residence.\t\n\nResidence Must Be Fit to Live In. The landlord promises that the residence: (1) complies with applicable housing codes; (2) is fit to live in; and (3) is not dangerous to the life, health or safety of the occupants. The landlord agrees to: \n\nMaintain structural components, such as roofs, floors, and chimneys in reasonably good repair;\n\nMaintain dwelling in a reasonably weather-tight condition;\n\nProvide adequate keys and locks;\n\nKeep common areas such as lobbies and stairwells clean and free of hazards;\n\nKeep electrical, plumbing and heating systems in good repair and maintain any appliances which are provided with the rental; \n\nTest for radon;\n\nOther: ______________________________________________________.\t\n\nLandlord agrees to the following accommodations for tenant’s disability: \t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nLANDLORD ENTRY INTO THE RESIDENCE\n\nExcept for emergencies, the landlord may enter the apartment only during reasonable hours and after obtaining the tenant’s consent at least 24 hours in advance. The tenant may not unreasonably withhold consent to the landlord to enter the residence.\n\nBUILDING RULES\n\nThe tenant agrees to obey the following rules: \n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nNOTIFYING THE LANDLORD OR TENANT\n\nNotices to the tenant. Unless otherwise required in this lease or by law, any notice from the landlord to the tenant will be valid only if:\n\nIt is in writing; and\n\nIt is addressed to the tenant at the residence and personally delivered to the tenant’s residence or sent by mail. The effective date of a notice will be the day it is personally delivered to the residence or, if it is mailed, two days after the date it is postmarked.\t\n\nNotices to the landlord. Unless otherwise required in this lease or by law, the tenant will give all required notices to the landlord in writing, delivered personally or sent by mail to the landlord or, if appropriate, to the landlord’s managing agent at the address given in this lease. The effective date of a notice will be the day it is personally delivered to the residence or, if it is mailed, two days after the date it is postmarked.\t\n\nOCCUPANTS\n\nThe persons listed below shall be the sole occupants of the residence:\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nPETS \n\nThe tenant may______ may not______ (check one) maintain pets in the residence. If the tenant is allowed to have pets, only the following pets may live in the residence:\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nCONDITION OF RESIDENCE AT THE TIME LEASE IS SIGNED\n\nPrior to signing this lease, the landlord and the tenant did _____ did not _____ (check one) inspect the residence together. If they did inspect the residence, their findings were as follows:\n\nResidence defects. The following substantial defects were observed:\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nLandlord work or repairs. The following work or repairs to be done by the landlord were agreed upon:\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nTenant work or repairs. The following work or repairs to be done by the tenant were agreed upon (indicate whether tenant or landlord is responsible for the expense):\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nConditions that will remain unchanged. The following residential conditions were agreed would remain unchanged:\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nWHEN THE LEASE ENDS\n\nWhen the lease ends, the tenant agrees to return the residence in the same condition as it was at the start of the lease, except for normal wear and tear and except for those inspection items which were noted at the time this lease was signed and not repaired. The tenant shall remove all the tenant’s personal property and return the keys.\n\nSIGNATURES\n\n__________________________________\t__________________________________\t\n\n(date)\t\t\t\t\t(Tenant)\t\n\n__________________________________\t__________________________________\t\n\n(date)\t\t\t\t\t(Tenant)\t\n\n__________________________________\t__________________________________\t\n\n(date)\t\t\t\t\t(Landlord)\t\t\n\n16.4 Model Total Price Disclosure\n\nTOTAL PRICE DISCLOSURE STATEMENT\n\n14 M.R.S.A. § 6030-J\n\nIf tenant(s) will be responsible for paying a mandatory recurring fee or an optional recurring fee, landlord must complete and provide this statement to tenant(s) prior to entering into a lease or tenancy at will agreement. \n\nDate:\t\t__________________________________\t\t\t\t\t\t\t\tMM/DD/YYYY\n\nPremises:\t__________________________________\t\t\t\t\t\t\t\tStreet Address (including unit number, if applicable)\n\n__________________________________\t\t\t\t\t\t\tCity/Town\n\nLandlord:\t__________________________________\t\t\t\t\t\t\t\tFirst and Last or Business Entity Name\n\nTenant(s) will be responsible for paying the following costs pursuant to the lease or tenancy at will agreement for the Premises:\n\nTotal Cost of Rent\n\nAmount and Frequency: __________________________________\n\n“Rent” is the amount of money paid on a predetermined recurring basis to fulfill the requirements of a lease or tenancy at will agreement. It does not include utility service costs, fees, penalties or charges that are issued to reimburse the landlord for reasonable costs or that deter the tenant from violating the lease or tenancy at will agreement. \n\nMandatory Recurring Fee(s) \n\nAmount, Frequency, and Purpose: __________________________________\n\nAmount, Frequency, and Purpose: __________________________________\n\n“Mandatory recurring fee” means an amount of money paid, other than rent, on a predetermined recurring basis to fulfill requirements within a lease or tenancy at will agreement related to services or common areas. It does not include fees for late, missed or insufficient payment of rent, repair costs, utility service costs, penalties or charges that are issued to reimburse the landlord for reasonable costs or that deter the tenant from violating the lease or tenancy at will agreement. \n\nOptional Recurring Fee(s) \n\nAmount, Frequency, and Type: __________________________________\n\n“Optional recurring fee” is an amount of money paid for an added service or feature that is not essential to meet the basic health or safety requirements necessary for a dwelling unit to be fit for human habitation. It does not include a fee for the use of a coin-operated laundry machine or other intermittent fee not paid on a predetermined recurring basis. It also does not include fees for late, missed or insufficient payment of rent, repair costs, utility service costs, penalties or charges that are issued to reimburse the landlord for reasonable costs or that deter the tenant from violating the lease or tenancy at will agreement. Optional recurring fees must be “opt-in” (a tenant may not be required to opt out to avoid paying the fee) and the tenant must be allowed to cease paying the fee at any time without penalty.  \n\nUtility Service Costs\n\nAmount, Frequency, and Type: __________________________________\n\nAmount, Frequency, and Type: __________________________________\n\n“Utility service costs” means costs associated with a dwelling unit’s use of energy delivered for that dwelling unit, services provided by a public utility as defined in 35-A M.R.S.A. § 102(13), services provided by a communications service as defined in 35-A M.R.S.A. § 9202(3), and services provided by a municipality. If a landlord is unable to obtain utility service costs for a dwelling unit, the landlord may provide a completed residential rental energy efficiency disclosure statement in accordance with 35 A M.R.S.A. § 10117(1). \n\nOther Costs\n\nAmount, Frequency, and Type: __________________________________\n\nAmount, Frequency, and Type: __________________________________\n\nAny other costs that the tenant(s) will be responsible for paying pursuant to the lease or tenancy at will agreement must be disclosed here. \n\nTHIS STATEMENT MUST BE SIGNED BY LANDLORD AND TENANT(S).\n\nLandlord \t\t\t\tPrinted Name\t\t\t \t\tDated\n\nTenant\t \t\t\t\tPrinted Name\t\t\t \t\tDated\n\nTenant\t\t\t\t\tPrinted Name\t\t\t \t\tDated\n\nTenant\t \t\t\t\tPrinted Name\t\t\t \t\tDated\n\nTenant\t\t\t\t\tPrinted Name\t\t\t \t\tDated\n\nTenant\t \t\t\t\tPrinted Name\t\t\t \t\tDated\n\nTenant\t\t\t\t\tPrinted Name\t\t\t \t\tDated",
+          "trafficLight": "red",
+          "findingCount": 1,
+          "plainSummary": "The platform or lender can change your incentives, cut your pay, add deductions, or raise your interest rate whenever they want—even retroactively without warning.",
+          "whyItMatters": "Your earnings or monthly EMI are never truly guaranteed; the deal can worsen overnight after you commit.",
+          "actionHint": "Can incentives, pay rates, or interest rates be changed without prior written notice, and will you confirm changes never apply retroactively?"
+        }
+      ],
+      "questionsToAsk": [
+        {
+          "priority": 1,
+          "severity": "critical",
+          "trafficLight": "red",
+          "clauseTitle": "Unilateral Power to Cut Incentives, Pay, or Hike Rates",
+          "sectionTitle": "Agreement Header & Overview",
+          "page": 1,
+          "question": "Can incentives, pay rates, or interest rates be changed without prior written notice, and will you confirm changes never apply retroactively?",
+          "whyItMatters": "Your earnings or monthly EMI are never truly guaranteed; the deal can worsen overnight after you commit.",
+          "benchmark": "Core financial rates must never change retroactively or without advance notice and opt-out rights."
+        }
+      ],
+      "originalText": "Maine Consumer Law Guide\n\nFrom the Office of the Maine Attorney General\n\nChapter 16: Model Residential Lease\n\nLast revised: December 2025.\n\nContents\n\n TOC \\o \"1-3\" \\h \\z \\u 16.1  Introduction\t PAGEREF _Toc225865329 \\h 1\n\n16.2  Guide to the Model Residential Lease\t PAGEREF _Toc225865330 \\h 2\n\n16.3  Model Residential Lease\t PAGEREF _Toc225865331 \\h 10\n\n16.4  Model Total Price Disclosure\t PAGEREF _Toc225865332 \\h 16\n\n16.1 Introduction\n\nIn 1989, the Legislature first directed the Attorney General’s Office to develop a model residential lease. The model residential lease was substantially revised in 2014 through a collaboration of the Attorney General’s Office and the Maine Human Rights Commission. For many years, the model lease has been published as part of this Consumer Law Guide available on the Attorney General’s website (www.maine.gov/ag). \n\nIn 2025, the Legislature enacted An Act to Require the Attorney General to Create and Update Biennially a Model Residential Lease, which provides that: \n\nBy December 1, 2025, the Attorney General shall create and post on the Attorney General’s publicly accessible website a model lease for residential property that complies with current law, including any disclosure and any document required to be attached to a residential lease. The Attorney General shall update the model lease biennially and post the revised model lease no later than December 1st of every odd-numbered year. \n\nProponents of the Act expressed that the existing model lease was inadequate because it did not include the Total Price Disclosure required by 14 M.R.S.A. § 6030-J and other mandatory landlord disclosures. These disclosures must be made to all prospective tenants, regardless of whether there is a written residential lease, and the applicable laws require that they be made prior to entering into an agreement for a residential tenancy. Excepting the Total Price Disclosure obligation, which was not effective until January 2025, information about these mandatory landlord disclosures has for many years been included in the tenants’ rights guide of the Consumer Law Guide. \n\nA Guide to the Model Residential Lease is included at Section 16.2. The Model Residential Lease can be found at Section 16.3. Finally, a new Model Total Price Disclosure is included at Section 16.4. \n\nThe Guide to the Model Residential Lease, the Model Residential Lease, and the Model Total Price Disclosure are offered as educational tools only and do not constitute legal advice or guidance. They do not include or address all laws applicable to residential tenancies, which, in addition to state laws, rules, and regulations, may also include local laws, such as municipal charter provisions, ordinances, and rules. The use of or reliance on the Guide to the Model Residential Lease, the Model Residential Lease, and/or the Model Total Price Disclosure does not excuse parties from complying with the law and does not provide a “safe harbor” or defense to liability, including with respect to liability in actions brought by the Attorney General. Parties to residential tenancies are encouraged to contact their own counsel to obtain legal advice regarding questions of compliance. \n\n16.2 Guide to the Model Residential Lease\n\nThis section briefly describes provisions of the Model Residential Lease and the relevant Maine landlord-tenant laws. Additional information regarding landlord-tenant laws can be found in Chapter 14 of this Consumer Law Guide. \n\nLease Sections 1-2: Parties to This Lease\t\n\nThe names and mailing addresses of the landlord, tenant and managing agent, if any, are entered here.\t\n\nLease Section 3: Residence Location\t\n\nThis lease can be used for any residence: house, apartment, mobile home, etc. If the residence is an apartment, then the apartment number and floor should be noted. In addition to legal protections that apply to all residential tenants, residents of mobile home parks may have additional protections.   \t\n\nLease Section 4: Length of Lease\t\n\nThis section establishes the term (or length of time) during which the tenant has the right to occupy the premises. During this period, assuming the tenant does not breach the lease, the landlord may not evict the tenant. Additionally, the landlord cannot increase the rent or any non-rent fees or charges and may not unilaterally modify the agreement. If a tenant is evicted for breach of the lease or leaves the residence before the end of the lease term, then the tenant may owe the remaining rent, but only if the landlord has satisfied a duty to mitigate damages. This means that the landlord must make reasonable efforts to find a new tenant and, if the landlord finds a new tenant who will rent the premises, rent paid by the new tenant for any portion of the former tenant’s term must be credited to the former tenant’s balance. \t\n\nIf the tenant stays beyond the term of the lease, then the tenant becomes a “month-to-month” tenant. This is called a tenancy at will; Maine law provides such tenants with certain rights. For example, the landlord cannot increase the rent or evict the tenant without giving the tenant written notice of at least 45 days or, if the increase is more than 10%, 75 days. A rent increase notice must expire on or after the date through which rent has been paid. Either the landlord or the tenant can terminate a tenant at will lease by giving 30 days written notice.\n\nA tenancy at will may be terminated on 7 days’ notice only for those reasons specifically permitted by law, including if the tenant is 7 days or more in arrears in paying rent. However, if the termination is based on late rent and the tenant pays the rent arrearage before the 7 days is up, then the termination is void. \t\n\nThe landlord’s eviction notice must explain the reasons for eviction. \t\n\nThe landlord can forbid a tenant from becoming a tenant at will at the end of the lease by informing the tenant in writing at least 30 days before the end of the term. \t\n\nLease Section 5: Rent Payments\t\n\nThe monthly rent should be entered here. Any additional non-rent charges should be separately stated in Section 5(C). \t\n\nIf there is a late charge, it should be stated in Section 5(B). Late fees should be no more than a reasonable estimate of the landlord’s damages caused by late payment. Maine law requires a landlord to inform a tenant of any late fee in writing at the time they enter into a rental agreement. The late fee cannot exceed 4% of one month’s rent and cannot be charged until the rent payment is 15 days late. \t\n\nFor tenants at buildings with more than 5 dwelling units, landlords are required to provide written receipts for rental payments and security deposit payments made partially or fully in cash. The receipt should include the following information: the date of the payment; the amount paid; the name of the party for whom the payment is made; the period for which payment is being made; a statement that the payment is either for rent or for security deposit; the signature of the person receiving the payment; and the name of that person printed in a legible manner.\t\n\nLease Section 6: Security Deposits\t\n\nThis section describes the tenant’s security deposit. Although landlords are not required to collect security deposits, landlords often require them to be paid in advance of a tenancy. The landlord must return the security deposit to the tenant in full, except that it may be retained in whole or in part by the landlord if the tenant owes rent (and the landlord has satisfied the duty to mitigate) or the tenant is responsible for damage to the residence that is beyond “normal wear and tear.”\t\n\n“Normal wear and tear” means deterioration that occurs based upon the use for which the rental unit is intended, without negligence, carelessness, accident or abuse of the premises or equipment or chattels by the tenant or members of his household or their invitees or guests. The term “normal wear and tear” does not include sums or labor expended by the landlord in removing articles abandoned by the tenant (such as trash).\t\n\nThe landlord cannot unjustly refuse to return the tenant’s deposit. A tenant can sue a landlord if the landlord unlawfully retains a security deposit.\t\n\nMaine has also enacted the following additional statutory protections for security deposits:\t\n\nA landlord may not require a security deposit that is greater than an amount equal to two months’ rent. This means that if the monthly rent for the unit is $1,000, the security deposit cannot exceed $2,000. This limitation applies to the entire rental unit, not to each tenant in the unit. Regardless of how many tenants are paying for the security deposit, the total combined amount of the security deposit cannot exceed two months’ rent. \n\nThe landlord must keep the tenant’s security deposit in a bank account separate from the landlord’s other funds and protected in case of bankruptcy, foreclosure, or sale of the building. The landlord is not statutorily required to pay the tenant interest on a security deposit. The tenant has the right to request the bank location and account number in which the security deposit is being held.\n\nIf the tenant is a tenant at will, the landlord is required to return the security deposit or provide a written statement itemizing the reasons for keeping it within 21 days. A written lease agreement can extend this time period to no more than 30 days.\n\nIf the landlord fails to return the tenant’s security deposit or fails to supply the tenant with the required itemized statement, then the landlord gives up the right to withhold any part of it.\n\nA landlord who fails to return the security deposit and provide the required itemized statement within the statutory time period can be held liable for double damages, reasonable attorney’s fees, and court costs. A tenant seeking those remedies must provide 7 days’ notice before filing suit. \n\nIf the landlord transfers ownership of the rental unit before the end of a lease the landlord must transfer the security deposit to the new owner.\n\nPlease note: these statutory protections do not apply to tenants of buildings of five or fewer units, one of which is occupied by the landlord.  \t\n\nLease Section 7: Services Provided by the Landlord\n\nThis section describes the landlord and tenant’s responsibilities for utilities. Landlords may not charge a tenant for electricity to the common areas or areas not within the tenant’s residence. This restriction can be waived if both parties have agreed in writing that the tenant will pay for such costs in return for a specific reduction in rent or other fair consideration, which must approximate the actual cost of providing utilities to those other areas. \n\nLandlords generally cannot deny tenants in residences with more than one dwelling unit access to cable television service. \n\nIf a landlord fails to pay for a utility service in the landlord’s name, a disconnect cannot occur until the utility company notifies the tenant and allows the tenant the opportunity to assume responsibility for future service. Unless they have agreed to be responsible for future service, tenants are not required to pay utility charges which are the landlord’s responsibility. Any tenant assuming responsibility for future service, and paying the utility, may deduct the amount paid from rent owed to the landlord. \n\nIf the landlord has agreed to provide heat:\t\n\nThe landlord must maintain an indoor temperature which is not so low as to be injurious to the health of occupants not suffering from abnormal medical conditions;\n\nHeating facilities must be capable of maintaining a minimum temperature of at least 68 degrees Fahrenheit 3 feet from the exterior walls and 5 feet above floor level at an outside temperature of minus 20 degrees Fahrenheit; and\n\nHeating facilities must be operated to protect the building equipment and systems from freezing. \n\nIn return for a specific reduction in rent, a landlord and a tenant can enter into a specific written agreement (which must be separate from their lease agreement) to maintain an indoor temperature between 62 and 68 degrees. Such agreements cannot be entered into if anyone under the age of 5 or over the age of 65 resides in the unit. \n\nLease Section 8: Furnishings Provided by the Landlord\n\nThis section outlines any furnishings provided by the landlord.\n\nLease Section 9: Tenant Responsibilities\n\nThis section describes the uses the tenant can make of the residence and the tenant’s obligation not to misuse the residence.\n\nAlterations to the residence by the tenant must be approved by the landlord.\n\nPlease note: under the federal Fair Housing Act, persons with disabilities have a right to make reasonable modifications.\t\n\nLease Section 10: Landlord Residential Responsibilities\n\nThis section prohibits the landlord from interfering with the tenant’s legal use of the residence. \n\nUnder the Implied Warranty and Covenant of Habitability, a landlord is required to keep the residence fit for human habitation. This requirement applies to all rented dwelling units, including mobile homes, apartments, buildings, or other structures, plus the common areas thereof. If a rented residence is unfit or unsafe to live in, the tenant can force the landlord to fix the problem by taking the landlord to court. For the tenant to win such a case, the following requirements must be followed:\t\n\nThe condition complained of must be serious; it must make the residence unsafe or unhealthy (e.g., broken windows, toilet malfunctions, rotting stairs, electrical hazards, oil burner problems, leaks in ceiling).\n\nThe condition must not be caused by the tenant or the tenant’s family.\n\nThe tenant must give the landlord reasonably prompt written notice of the problem and allow a reasonable amount of time for landlord to fix the problem.\n\nThe tenant must be fully up to date in rent payments at the time the tenant gives the landlord written notice of the condition. \n\nThere are specific protections for tenants faced with bedbugs. \n\nIf the landlord does not repair the unsafe or unhealthy condition within a reasonable time after written notice, a judge may order that the tenant’s rent be lowered, that the tenant receive a partial rent rebate, or that the landlord fix the condition. \n\nA tenant can sign away the right to complain about certain conditions.  For example, the tenant may negotiate a written lease that charges a lower rent in return for the landlord not supplying heat.\n\nThe landlord cannot increase your rent if a condition at the dwelling unit violates the warranty of habitability. \n\nGenerally, the law does not authorize tenants to withhold rent for warranty issues. If the tenant believes the landlord has breached the warranty of habitability, then the tenant’s usual remedy is to go to court and seek relief. However, if the landlord has breached the warranty of habitability and the reasonable cost of repairing the dwelling unit is less than $500 or an amount equal to one half of the monthly rent, whichever is greater, the tenant can notify the landlord in writing of the tenant’s intention to correct the condition at the landlord’s expense. If the landlord fails to comply within 14 days after being notified by the tenant, or as promptly as conditions require in case of emergency, the tenant may arrange to have the repairs made. After submitting to the landlord an itemized statement of the tenant’s expenses in making a repair, the tenant may deduct from the rent the reasonable cost of the repairs. \n\nPlease note: this right to repair and then deduct the cost from rent does not apply if the residence is an owner-occupied building of five (5) or fewer dwelling units. \n\nLease Section 11: Landlord Entry into the Residence\t\n\nThis section allows the landlord to enter the residence at a reasonable time after giving the tenant reasonable notice and obtaining the tenant’s permission. Tenants cannot unreasonably withhold permission. Except in the case of an emergency or if it is impractical to do so, the landlord must give the tenant reasonable notice of intent to enter. 24 hours’ notice is presumed to be reasonable. \n\nThe landlord is allowed to enter the rental unit to make necessary or agreed-upon repairs, alterations, improvements, or to show or inspect the apartment. If the landlord makes an illegal or unauthorized entry or makes repeated demands for entry which have the effect of harassing, the tenant can recover actual damages or $100, whichever is greater, obtain an injunction, and recover reasonable attorney’s fees.\t\n\nLease Section 13: Notifying the Landlord or Tenant\t\n\nThis section describes the parties’ agreement regarding how they will notify each other. If the law requires a different form of notice, then the law controls. \t\n\nLease Section 14: Occupants\t\n\nThis section allows the parties to agree on who may reside at the rental unit.\n\nLease Section 15: Pets\t\n\nThis section allows the parties to agree on whether pets will be allowed at the residence.\n\nLease Section 16: Conditions of Residence at the Time the Lease Is Signed\t\n\nTenants should carefully inspect the residence before signing the lease and list all defects and damage in this section. This may help prevent or mitigate disputes about defects or damage at the end of the tenancy.\n\nLease Section 17: When the Lease Ends \n\nThis section outlines the how possession of the residence will be returned to the landlord.\n\nAbandoned Property. By statute, a landlord must comply with specific requirements before they can dispose any property of the tenant that is left at the rental unit after the tenant has vacated.  Those requirements exist regardless of whether the written lease agreement expressly includes them.  \n\nLease Section 18: Lease Signatures\n\nThe lease is not binding unless signed by both parties. Handwritten revisions should also be initialed by both parties. Each party should receive and retain a copy of the signed lease.\t\n\nRequired Landlord Disclosures\t\n\nUnless they are exempt, there are various disclosures that a landlord must make to a tenant under Maine and federal law before entering into a tenancy, including: \n\nLandlords must provide a residential energy efficiency disclosure statement;\n\nLandlords must notify tenants of results of radon testing; \n\nLandlords must disclose their smoking policy; \n\nLandlords must provide a Total Price Disclosure; and \n\nLandlords must provide a lead paint disclosure. \t\n\nUnfair Discrimination\t\n\nFederal and state laws prohibit unfair discrimination in rental housing. \t\n\nLandlords may not refuse to show or rent a unit or impose different terms or conditions on the basis of race, color, sex, sexual orientation or gender identity, physical or mental disability, religion, ancestry, national origin, familial status or any previous actions seeking and receiving an order of protection, or because of the receipt of any kind of public assistance. \n\nLandlords may not refuse occupancy because the tenant requires an assistance animal unless the building consists of two units one of which is occupied by the landlord. The definition of “assistance animal” for housing includes animals other than dogs and includes animals which are necessary to mitigate the effects of emotional/mental disabilities, including “companion” or “emotional support” animals.\n\nFor further information or to make a complaint of unfair discrimination, a tenant may contact the Maine Human Rights Commission (https://www.maine.gov/mhrc/), 51 State House Station, Augusta, Maine 04333 (207) 624-6290,. \t\n\nWhen the Apartment Building Is Sold\t\n\nIf your landlord sells the building within the term of a written lease agreement, the tenant may have the right to remain in their residence for the entire term. The new owner must follow the same eviction procedures as the former owner, whether the tenant has a written lease agreement or is a tenant at will. \t\n\nNon-Waivable Tenant Rights\t\n\nUnder Maine law, there are certain tenant rights that cannot be waived, no matter what the lease says and notwithstanding any oral agreement with the landlord:\t\n\nThe landlord cannot charge a tenant for the months remaining on the lease after the tenant is evicted or leaves unless the landlord makes a good faith effort to re-rent the residence. \n\nLate fees may not exceed 4% of one month’s rent. \n\nSecurity deposit rights are the same for all tenants, whether there is a written lease or not. Please note: this law does not apply to a residence which is part of a building of no more than 5 dwellings, one of which is occupied by the owner.\n\nLandlords cannot require tenants to pay for utilities in common areas, unless there is an agreement for a reduction in rent or other fair consideration. \n\nLandlords cannot disclaim the Implied Warranty and Covenant of Habitability unless the lease specifically charges a lower rent in return for unsafe conditions. \n\nTenants have the right to repair serious problems and deduct the cost (up to $500 or one half of the monthly rent) from the rent. This law does not apply to owner-occupied buildings with 5 or fewer units. \n\nLandlords cannot unreasonably enter the tenant’s residence. \n\nLandlords can terminate the lease and evict a tenant for a substantial breach of the lease, but they cannot forcibly remove a tenant or deny access to the rental unit (e.g., by changing the locks or removing furniture). Only a law enforcement officer can force the tenant to leave and only after a court hearing in which the court orders an eviction. \n\nLandlords must handle abandoned property in accordance with the law. \n\nThe landlord cannot evict a tenant in retaliation for complaining about living conditions or joining a tenant’s organization. \n\nLandlords cannot unfairly discriminate against tenants and must accommodate disabilities, including allowing assistance animals. \n\nLandlords violate the Maine Unfair Trade Practices Act if they use lease provisions that have the effect of waiving a tenant’s statutory rights. Further, the Legislature has specifically declared certain lease provisions unenforceable and violations of the Maine Unfair Trade Practices Act. \n\n16.3 Model Residential Lease\n\nRESIDENTIAL LEASE AGREEMENT\n\nPARTIES TO THIS LEASE\n\nThe parties to the lease are:\n\nLANDLORD\t\t\t\t\t\n\nName \t\t\t\t\t\t\t\n\nAddress \t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\n\nTelephone \t\t\t\t\t\n\nTENANT(S)\t\n\nName \t\t\t\t\t\n\nAddress \t\t\t\t\t\n\n\t\t\t\t\t\t\n\nTelephone \t\t\t\t\n\nName \t\t\t\t\t\n\nAddress \t\t\t\t\t\n\n\t\t\t\t\t\t\n\nTelephone \t\t\t\t\n\nMANAGING AGENT\n\nIf the landlord employs an agent to manage this residence, the agent is:\n\nName __________________________________________________________________\t\n\n\tAddress _________________________________________________________________\t\n\n\t________________________________________________________________________\n\n\tTelephone _______________________________________________________________\t\n\nRESIDENCE LOCATION\n\nThis residence is a house _____, apartment _____, mobile home _____  (check one).\n\nIt is located at: ______________________________________________________________\n\n_______________________________________________________ \tME (ZIP): __________\n\nFloor: __________ \tApartment number: __________\n\nLENGTH OF LEASE\n\nThe landlord will rent this residence to the tenant for __________ months. This term shall begin on   ____________________ and end on ____________________.\n\nRENT PAYMENTS\n\nRental Amount. The monthly rent for this residence is $ ___________. The tenant shall pay the rent for each month on the _________ day of that month.  \t\n\nPaying the Rent. The rent should be paid to: ________________________________. The landlord may assess a penalty of ____________% (no more than 4%) of the monthly rent once payment is 15 or more days late.\t\n\nAdditional Charges. In addition to the monthly rent, the tenant also agrees to pay the landlord the following charges (describe the reason for the charge, the amount, and when it should be paid): __________________________________________________________________________________________________________________________________________________________________\t\n\nSECURITY DEPOSIT\n\nAmount of Security Deposit. The tenant has agreed to pay the landlord $ _______________ as a Security Deposit. (No more than two months’ rent). The landlord will keep the Security Deposit separate from the landlord’s own money. \n\nReturn of the Security Deposit. The landlord will return the entire Security Deposit to the tenant if the following conditions are met:\n\nThe apartment is in good condition except for (a) normal wear and tear, or (b) damage not caused by the tenant, the tenant’s family, invitees or guests;\t\n\nThe tenant does not owe any rent or utility charges which the tenant was required to pay directly to the landlord; and\t\n\nThe tenant has not caused the landlord expenses for storage and disposing of unclaimed property.\t\n\nIf the landlord deducts money from the tenant’s Security Deposit, the landlord will provide the tenant a list of the items for which the tenant is being charged and return to the tenant the balance of the Security Deposit.\n\nThe landlord will return the Security Deposit, or the remaining balance, to the tenant no more than thirty (30) days after the tenancy ends.\t\n\nSERVICES PROVIDED BY THE LANDLORD\n\nUtilities and services shall be paid by the parties as follows: \n\nUtilities/Services\n\nLandlord\n\nTenant\n\nElectricity\n\nHeat, Fuel\n\nSewerage\n\nTrash Removal\n\nYard Maintenance\n\nSnow Removal\n\nAir Conditioning\n\nHot Water\n\nCold Water\n\nTelephone\n\nCable Television\n\nInternet Services\n\nOther\n\nThe landlord will also provide the following services: \n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nFURNISHINGS PROVIDED BY THE LANDLORD FOR USE BY TENANT: \n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nTENANT RESIDENTIAL RESPONSIBILITIES\n\nUse Only as a Residence. The tenant agrees that the residence will be used only as a residence, except for incidental use in trade or business (such as telephone solicitation of sales or arts and crafts created for profit). Such incidental uses will be allowed if they do not violate local zoning laws or affect the landlord’s ability to obtain fire or liability insurance. The total number of persons residing in this residence cannot exceed _______.\t\n\nDamage. The tenant agrees not to damage the apartment, the building, the grounds or the common areas or to interfere with the rights of other tenants to live in their apartments in peace and quiet. Damage (other than normal wear and tear) caused by the tenant, the tenant’s family, invitees, service animal or guests shall be repaired by the tenant at the tenant’s expense. Upon the tenant’s failure to make such repairs, the landlord, after reasonable written notice to the tenant, may make the repairs.\t\n\nAlterations. Except as permitted by law, no alteration, addition, or improvement to the residence shall be made by the tenant without the prior written consent by the landlord.\n\nBedbugs. Tenant agrees to promptly notify the landlord if there is a known or suspected infestation of bedbugs in the unit and agrees to cooperate with the landlord and any pest control agent to remediate.\n\nLANDLORD RESIDENTIAL RESPONSIBILITIES\n\nLegal Use of the Residence. The landlord agrees not to interfere with the tenant’s legal use of the residence.\t\n\nResidence Must Be Fit to Live In. The landlord promises that the residence: (1) complies with applicable housing codes; (2) is fit to live in; and (3) is not dangerous to the life, health or safety of the occupants. The landlord agrees to: \n\nMaintain structural components, such as roofs, floors, and chimneys in reasonably good repair;\n\nMaintain dwelling in a reasonably weather-tight condition;\n\nProvide adequate keys and locks;\n\nKeep common areas such as lobbies and stairwells clean and free of hazards;\n\nKeep electrical, plumbing and heating systems in good repair and maintain any appliances which are provided with the rental; \n\nTest for radon;\n\nOther: ______________________________________________________.\t\n\nLandlord agrees to the following accommodations for tenant’s disability: \t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nLANDLORD ENTRY INTO THE RESIDENCE\n\nExcept for emergencies, the landlord may enter the apartment only during reasonable hours and after obtaining the tenant’s consent at least 24 hours in advance. The tenant may not unreasonably withhold consent to the landlord to enter the residence.\n\nBUILDING RULES\n\nThe tenant agrees to obey the following rules: \n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nNOTIFYING THE LANDLORD OR TENANT\n\nNotices to the tenant. Unless otherwise required in this lease or by law, any notice from the landlord to the tenant will be valid only if:\n\nIt is in writing; and\n\nIt is addressed to the tenant at the residence and personally delivered to the tenant’s residence or sent by mail. The effective date of a notice will be the day it is personally delivered to the residence or, if it is mailed, two days after the date it is postmarked.\t\n\nNotices to the landlord. Unless otherwise required in this lease or by law, the tenant will give all required notices to the landlord in writing, delivered personally or sent by mail to the landlord or, if appropriate, to the landlord’s managing agent at the address given in this lease. The effective date of a notice will be the day it is personally delivered to the residence or, if it is mailed, two days after the date it is postmarked.\t\n\nOCCUPANTS\n\nThe persons listed below shall be the sole occupants of the residence:\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nPETS \n\nThe tenant may______ may not______ (check one) maintain pets in the residence. If the tenant is allowed to have pets, only the following pets may live in the residence:\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nCONDITION OF RESIDENCE AT THE TIME LEASE IS SIGNED\n\nPrior to signing this lease, the landlord and the tenant did _____ did not _____ (check one) inspect the residence together. If they did inspect the residence, their findings were as follows:\n\nResidence defects. The following substantial defects were observed:\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nLandlord work or repairs. The following work or repairs to be done by the landlord were agreed upon:\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nTenant work or repairs. The following work or repairs to be done by the tenant were agreed upon (indicate whether tenant or landlord is responsible for the expense):\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nConditions that will remain unchanged. The following residential conditions were agreed would remain unchanged:\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nWHEN THE LEASE ENDS\n\nWhen the lease ends, the tenant agrees to return the residence in the same condition as it was at the start of the lease, except for normal wear and tear and except for those inspection items which were noted at the time this lease was signed and not repaired. The tenant shall remove all the tenant’s personal property and return the keys.\n\nSIGNATURES\n\n__________________________________\t__________________________________\t\n\n(date)\t\t\t\t\t(Tenant)\t\n\n__________________________________\t__________________________________\t\n\n(date)\t\t\t\t\t(Tenant)\t\n\n__________________________________\t__________________________________\t\n\n(date)\t\t\t\t\t(Landlord)\t\t\n\n16.4 Model Total Price Disclosure\n\nTOTAL PRICE DISCLOSURE STATEMENT\n\n14 M.R.S.A. § 6030-J\n\nIf tenant(s) will be responsible for paying a mandatory recurring fee or an optional recurring fee, landlord must complete and provide this statement to tenant(s) prior to entering into a lease or tenancy at will agreement. \n\nDate:\t\t__________________________________\t\t\t\t\t\t\t\tMM/DD/YYYY\n\nPremises:\t__________________________________\t\t\t\t\t\t\t\tStreet Address (including unit number, if applicable)\n\n__________________________________\t\t\t\t\t\t\tCity/Town\n\nLandlord:\t__________________________________\t\t\t\t\t\t\t\tFirst and Last or Business Entity Name\n\nTenant(s) will be responsible for paying the following costs pursuant to the lease or tenancy at will agreement for the Premises:\n\nTotal Cost of Rent\n\nAmount and Frequency: __________________________________\n\n“Rent” is the amount of money paid on a predetermined recurring basis to fulfill the requirements of a lease or tenancy at will agreement. It does not include utility service costs, fees, penalties or charges that are issued to reimburse the landlord for reasonable costs or that deter the tenant from violating the lease or tenancy at will agreement. \n\nMandatory Recurring Fee(s) \n\nAmount, Frequency, and Purpose: __________________________________\n\nAmount, Frequency, and Purpose: __________________________________\n\n“Mandatory recurring fee” means an amount of money paid, other than rent, on a predetermined recurring basis to fulfill requirements within a lease or tenancy at will agreement related to services or common areas. It does not include fees for late, missed or insufficient payment of rent, repair costs, utility service costs, penalties or charges that are issued to reimburse the landlord for reasonable costs or that deter the tenant from violating the lease or tenancy at will agreement. \n\nOptional Recurring Fee(s) \n\nAmount, Frequency, and Type: __________________________________\n\n“Optional recurring fee” is an amount of money paid for an added service or feature that is not essential to meet the basic health or safety requirements necessary for a dwelling unit to be fit for human habitation. It does not include a fee for the use of a coin-operated laundry machine or other intermittent fee not paid on a predetermined recurring basis. It also does not include fees for late, missed or insufficient payment of rent, repair costs, utility service costs, penalties or charges that are issued to reimburse the landlord for reasonable costs or that deter the tenant from violating the lease or tenancy at will agreement. Optional recurring fees must be “opt-in” (a tenant may not be required to opt out to avoid paying the fee) and the tenant must be allowed to cease paying the fee at any time without penalty.  \n\nUtility Service Costs\n\nAmount, Frequency, and Type: __________________________________\n\nAmount, Frequency, and Type: __________________________________\n\n“Utility service costs” means costs associated with a dwelling unit’s use of energy delivered for that dwelling unit, services provided by a public utility as defined in 35-A M.R.S.A. § 102(13), services provided by a communications service as defined in 35-A M.R.S.A. § 9202(3), and services provided by a municipality. If a landlord is unable to obtain utility service costs for a dwelling unit, the landlord may provide a completed residential rental energy efficiency disclosure statement in accordance with 35 A M.R.S.A. § 10117(1). \n\nOther Costs\n\nAmount, Frequency, and Type: __________________________________\n\nAmount, Frequency, and Type: __________________________________\n\nAny other costs that the tenant(s) will be responsible for paying pursuant to the lease or tenancy at will agreement must be disclosed here. \n\nTHIS STATEMENT MUST BE SIGNED BY LANDLORD AND TENANT(S).\n\nLandlord \t\t\t\tPrinted Name\t\t\t \t\tDated\n\nTenant\t \t\t\t\tPrinted Name\t\t\t \t\tDated\n\nTenant\t\t\t\t\tPrinted Name\t\t\t \t\tDated\n\nTenant\t \t\t\t\tPrinted Name\t\t\t \t\tDated\n\nTenant\t\t\t\t\tPrinted Name\t\t\t \t\tDated\n\nTenant\t \t\t\t\tPrinted Name\t\t\t \t\tDated\n\nTenant\t\t\t\t\tPrinted Name\t\t\t \t\tDated",
+      "jurisdictions": [
+        {
+          "id": "india",
+          "label": "India (Contract Act / MTA / RBI)"
+        },
+        {
+          "id": "us_general",
+          "label": "US Federal / General"
+        },
+        {
+          "id": "california",
+          "label": "California (US)"
+        },
+        {
+          "id": "new_york",
+          "label": "New York (US)"
+        },
+        {
+          "id": "uk_eu",
+          "label": "UK / EU Consumer Law"
+        }
+      ],
+      "userRoles": [
+        {
+          "id": "tenant",
+          "icon": "🏠",
+          "label": "Tenant",
+          "perspective": "as a Tenant renting this property"
+        },
+        {
+          "id": "employee",
+          "icon": "💼",
+          "label": "Employee",
+          "perspective": "as an Employee accepting this role"
+        },
+        {
+          "id": "gig_worker",
+          "icon": "🚴",
+          "label": "Gig Worker",
+          "perspective": "as a Gig / Delivery Partner"
+        },
+        {
+          "id": "borrower",
+          "icon": "💰",
+          "label": "Borrower",
+          "perspective": "as a Borrower taking this loan"
+        },
+        {
+          "id": "employer",
+          "icon": "🏢",
+          "label": "Employer",
+          "perspective": "as an Employer reviewing enforceability & fairness"
+        },
+        {
+          "id": "lender",
+          "icon": "🏦",
+          "label": "Lender",
+          "perspective": "as a Lender reviewing compliance & risk"
+        },
+        {
+          "id": "other",
+          "icon": "⚖️",
+          "label": "Other Signer",
+          "perspective": "as the signing party"
+        }
+      ],
+      "voiceLanguages": [
+        {
+          "code": "en",
+          "name": "English",
+          "speechLang": "en-US"
+        },
+        {
+          "code": "hi",
+          "name": "हिन्दी (Hindi)",
+          "speechLang": "hi-IN"
+        },
+        {
+          "code": "kn",
+          "name": "ಕನ್ನಡ (Kannada)",
+          "speechLang": "kn-IN"
+        },
+        {
+          "code": "ta",
+          "name": "தமிழ் (Tamil)",
+          "speechLang": "ta-IN"
+        },
+        {
+          "code": "te",
+          "name": "తెలుగు (Telugu)",
+          "speechLang": "te-IN"
+        },
+        {
+          "code": "mr",
+          "name": "मराठी (Marathi)",
+          "speechLang": "mr-IN"
+        },
+        {
+          "code": "es",
+          "name": "Español (Spanish)",
+          "speechLang": "es-ES"
+        },
+        {
+          "code": "fr",
+          "name": "Français (French)",
+          "speechLang": "fr-FR"
+        }
+      ],
+      "jurisdictionAudit": {
+        "jurisdiction": {
+          "id": "india",
+          "label": "India (Contract Act / MTA / RBI)"
+        },
+        "illegalCount": 0,
+        "restrictedCount": 0,
+        "clauses": [
+          {
+            "findingId": "finding-unilateral-rate-modification",
+            "title": "Unilateral Power to Cut Incentives, Pay, or Hike Rates",
+            "status": "enforceable_risky",
+            "badge": "Legal But Unfair — Negotiate",
+            "citation": "Freedom of Contract / Market Benchmark",
+            "note": "Because this term can be legally enforced once signed, negotiate it in writing beforehand."
+          }
+        ]
+      },
+      "whatIfScenarios": [
+        {
+          "id": "sim-exit",
+          "icon": "✈️",
+          "title": "You relocate cities in Month 5",
+          "activeByDefault": true,
+          "predatoryCost": 2150,
+          "fairCost": 2150,
+          "explanation": "Standard 1-month notice exit with deposit refunded."
+        },
+        {
+          "id": "sim-renew",
+          "icon": "📅",
+          "title": "You forget registered-post notice 90 days before expiry",
+          "activeByDefault": true,
+          "predatoryCost": 0,
+          "fairCost": 0,
+          "explanation": "Converts safely to opt-in renewal with zero surprise hike."
+        },
+        {
+          "id": "sim-repair",
+          "icon": "🔧",
+          "title": "Concealed plumbing & AC compressor fail in Month 3",
+          "activeByDefault": false,
+          "predatoryCost": 0,
+          "fairCost": 0,
+          "explanation": "Landlord covers 100% of structural & major utility repairs."
+        },
+        {
+          "id": "sim-fees",
+          "icon": "💸",
+          "title": "12 months of mandatory add-on & upfront junk fees",
+          "activeByDefault": true,
+          "predatoryCost": 0,
+          "fairCost": 0,
+          "explanation": "Mandatory monthly amenity/tech/billing charges plus non-refundable painting & move-in fees silently drain your wallet."
+        }
+      ],
+      "extractedReminders": [
+        {
+          "id": "rem-win-1",
+          "type": "notice",
+          "urgency": "yellow",
+          "title": "Notice Period Requirement (30 days written notice)",
+          "displayDate": "30 days written notice",
+          "isoDate": "2026-12-18",
+          "alertMessage": "Requires 30 days written notice advance notice before cancelling or exiting.",
+          "consequence": "Set a calendar reminder at least 15 days ahead of any notice cutoff so you are never caught off guard.",
+          "contextQuote": "tenant can terminate a tenant at will lease by giving 30 days written notice. A tenancy at will may be terminated on 7 days’ notice only for"
+        }
+      ],
+      "riskDNA": {
+        "overallRisk": 34,
+        "overallBand": "LOW-MODERATE RISK",
+        "disclaimer": "AI-generated decision-support indicators (not legally authoritative advice).",
+        "dimensions": [
+          {
+            "key": "financial",
+            "label": "Financial Risk",
+            "score": 39
+          },
+          {
+            "key": "renewal",
+            "label": "Renewal Risk",
+            "score": 14
+          },
+          {
+            "key": "penalty",
+            "label": "Penalty Risk",
+            "score": 38
+          },
+          {
+            "key": "responsibility",
+            "label": "Responsibility Risk",
+            "score": 18
+          },
+          {
+            "key": "lockin",
+            "label": "Lock-in Risk",
+            "score": 16
+          },
+          {
+            "key": "complexity",
+            "label": "Legal Complexity",
+            "score": 61
+          },
+          {
+            "key": "deadline",
+            "label": "Deadline Risk",
+            "score": 52
+          }
+        ]
+      },
+      "combinedClauseRisks": [],
+      "missingInformation": [
+        {
+          "id": "gap-unilateral-rate-modification",
+          "label": "Unilateral Power to Cut Incentives, Pay, or Hike Rates",
+          "issue": "Does not specify when changes can happen, maximum limits, or how much advance notice you will receive.",
+          "ask": "Can incentives, pay rates, or interest rates be changed without prior written notice, and will you confirm changes never apply retroactively?",
+          "page": 1
+        },
+        {
+          "id": "gap-damage-def",
+          "label": "Definition of \"Damage\" vs. Normal Wear Unclear",
+          "issue": "The contract does not require itemized bills or clearly separate ordinary wear and tear from tenant damage.",
+          "ask": "Will you define exact permitted deposit deductions and provide itemized receipts?",
+          "page": 1
+        },
+        {
+          "id": "gap-dispute-time",
+          "label": "No Clear Dispute Resolution Timeline",
+          "issue": "No clear timeline or neutral escalation path is specified if you challenge an unfair deduction or charge.",
+          "ask": "If I dispute a deduction or charge, how many days do we have to resolve it in writing?",
+          "page": 1
+        }
+      ],
+      "clauseRelationshipMap": {
+        "nodes": [
+          {
+            "id": "payment",
+            "label": "PAYMENT & RATES",
+            "icon": "💰",
+            "count": 1,
+            "riskTone": "red",
+            "clauses": [
+              {
+                "id": "finding-unilateral-rate-modification",
+                "title": "Unilateral Power to Cut Incentives, Pay, or Hike Rates",
+                "page": 1,
+                "plainEnglish": "The platform or lender can change your incentives, cut your pay, add deductions, or raise your interest rate whenever they want—even retroactively without warning."
+              }
+            ]
+          },
+          {
+            "id": "incentives",
+            "label": "FEES / INCENTIVES",
+            "icon": "📊",
+            "count": 1,
+            "riskTone": "red",
+            "clauses": [
+              {
+                "id": "finding-unilateral-rate-modification",
+                "title": "Unilateral Power to Cut Incentives, Pay, or Hike Rates",
+                "page": 1,
+                "plainEnglish": "The platform or lender can change your incentives, cut your pay, add deductions, or raise your interest rate whenever they want—even retroactively without warning."
+              }
+            ]
+          },
+          {
+            "id": "deductions",
+            "label": "DEDUCTIONS / DEPOSIT",
+            "icon": "✂️",
+            "count": 0,
+            "riskTone": "green",
+            "clauses": []
+          },
+          {
+            "id": "penalties",
+            "label": "PENALTIES / FINES",
+            "icon": "⚠️",
+            "count": 1,
+            "riskTone": "red",
+            "clauses": [
+              {
+                "id": "finding-unilateral-rate-modification",
+                "title": "Unilateral Power to Cut Incentives, Pay, or Hike Rates",
+                "page": 1,
+                "plainEnglish": "The platform or lender can change your incentives, cut your pay, add deductions, or raise your interest rate whenever they want—even retroactively without warning."
+              }
+            ]
+          },
+          {
+            "id": "renewals",
+            "label": "RENEWAL & LOCK-IN",
+            "icon": "🔄",
+            "count": 0,
+            "riskTone": "green",
+            "clauses": []
+          },
+          {
+            "id": "termination",
+            "label": "TERMINATION & RIGHTS",
+            "icon": "🚪",
+            "count": 0,
+            "riskTone": "green",
+            "clauses": []
+          }
+        ],
+        "edges": [
+          [
+            "payment",
+            "incentives"
+          ],
+          [
+            "incentives",
+            "deductions"
+          ],
+          [
+            "deductions",
+            "penalties"
+          ],
+          [
+            "penalties",
+            "renewals"
+          ],
+          [
+            "renewals",
+            "termination"
+          ]
+        ]
+      },
+      "beforeYouSign": {
+        "role": {
+          "id": "tenant",
+          "icon": "🏠",
+          "label": "Tenant",
+          "perspective": "as a Tenant renting this property"
+        },
+        "readinessScore": 80,
+        "perspectiveNote": "Viewing as a Tenant renting this property: This readiness score reflects how fair, transparent, and low-risk the agreement looks from YOUR side before signing.",
+        "redCount": 1,
+        "yellowCount": 0,
+        "greenCount": 1,
+        "topQuestions": [
+          "Can incentives, pay rates, or interest rates be changed without prior written notice, and will you confirm changes never apply retroactively?"
+        ],
+        "disclaimer": "ContractLens AI provides informational decision-support analysis and does not replace professional legal advice."
+      },
+      "id": "cl-f018e18354",
+      "savedAt": "2026-11-18T09:53:58.729Z"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "rem-win-1",
+      "type": "notice",
+      "urgency": "yellow",
+      "title": "Notice Period Requirement (30 days written notice)",
+      "displayDate": "30 days written notice",
+      "isoDate": "2026-12-18",
+      "alertMessage": "Requires 30 days written notice advance notice before cancelling or exiting.",
+      "consequence": "Set a calendar reminder at least 15 days ahead of any notice cutoff so you are never caught off guard.",
+      "contextQuote": "tenant can terminate a tenant at will lease by giving 30 days written notice. A tenancy at will may be terminated on 7 days’ notice only for",
+      "contractTitle": "CLG 16  Model Residential Lease",
+      "createdAt": "2026-11-18T09:55:07.447Z"
+    }
+  ]
+}
